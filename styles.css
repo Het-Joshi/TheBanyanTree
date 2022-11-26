@@ -1,0 +1,101 @@
+
+body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F616%2F512%2Foriginal%2Fvector-seamless-colorful-floral-background-hand-drawn-doodle-flowers-pattern-for-coloring-book-textile-design-wallpaper-scrapbooking.jpg&f=1&nofb=1&ipt=263db087686ab20f19e183e87d795efc6c6102f76a27f289710ce2098e1f1665&ipo=images);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 5%;
+}
+.frosted{
+    /* Frosted glass affect */
+    -webkit-backdrop-filter: blur(8px);  
+    backdrop-filter: blur(8px); 
+
+    /* Add box-shadow for more depth */
+    box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+    background-color: rgba(228 ,228 ,228 ,0.10);
+
+    padding: 5%;
+    margin: 5%;
+}
+
+.header{
+    margin: 5%;
+    padding: 3%;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    color: rgb(22, 21, 21);
+}
+
+.pfp{
+    float: left;
+    margin: auto 5px;
+    height: 100%;
+    width: 15%;
+    display: inline;
+}
+.titles{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2rem;
+}
+.btn1 {
+margin: 5%;
+  align-items: center;
+  background-color: #e2867a;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 250%;
+  height: 5rem;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn1:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 5rem;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.btn1:hover:after {
+  transform: translate(0, 0);
+}
+
+.btn1:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.btn1:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .btn1 {
+    padding: 0 40px;
+  }
+}
+a {
+    color: #e2867a;
+}
